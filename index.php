@@ -11,4 +11,6 @@ $voiture->setAnnee('2023');
 
 echo $voiture->afficher();
 echo $voiture->demarrer();
+echo '<br>';
 echo $voiture->klaxonner();
+echo $voiture->reparer();

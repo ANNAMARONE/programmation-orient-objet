@@ -1,7 +1,8 @@
 <?php
 include 'vehicule.php';
+include 'interface.php';
 //la class Voiture hérite celle de Vehicule
-class Voiture extends Vehicule{
+class Voiture extends Vehicule implements Reparable {
 private $marque;
 private $modele;
 private $kilometrage;
@@ -42,4 +43,8 @@ function afficher(){
 function klaxonner(){
     return 'je klaxonne';
 }
+function reparer(){
+    
+}
+
 }
