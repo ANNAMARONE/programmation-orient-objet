@@ -35,7 +35,7 @@ if(is_string($nouvelleMarque)){
 }
 //Définissez une interface Reparable avec une méthode reparer()
 function reparer(){
-    echo"la voiture de marque $this->marque et de modéle $this->modele est trés cool <br>";
+    echo"la voiture de marque $this->marque et de modéle $this->modele a été reparer <br>";
 }
 }
 // Créez une classe Vehicule parenté avec une méthode demarrer()
