@@ -49,7 +49,7 @@ function klaxonner(){
 }
 
 //instanciation de l'objet voiture
-$voiture = new Voiture();
+$voiture = new Voiture('Audi','Q6','250Km/h','2023');
 $voiture->setMarque('Mercedess');
 
 $voiture->setModele('Q6');
