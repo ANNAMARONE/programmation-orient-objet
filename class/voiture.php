@@ -1,5 +1,5 @@
 <?php
-
+include 'vehicule.php';
 //la class Voiture hérite celle de Vehicule
 class Voiture extends Vehicule{
 private $marque;
